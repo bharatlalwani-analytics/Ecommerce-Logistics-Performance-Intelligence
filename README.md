@@ -1,35 +1,36 @@
-# 🚚 E-commerce Delivery Partner Performance Analysis
+# E-commerce Logistics Performance & Fulfillment Intelligence Platform
 
-## 📌 Overview
-This project analyzes delivery performance across two logistics providers for an e-commerce operation, comparing cost, speed, and reliability to support logistics partner decisions.
+## 💼 The Business Problem
+For modern digital commerce brands, logistics and last-mile delivery operations heavily dictate customer retention and financial health. Multi-vendor operations frequently suffer from hidden operational bottlenecks, including unvouched shipping delays, rising fulfillment costs, and consistent breach of third-party Service Level Agreements (SLAs). Without a central business intelligence layer to cross-examine delivery provider data, e-commerce managers lack the quantitative insights required to hold logistics partners accountable, eliminate systemic transit lags, and protect delivery margins.
 
-## 🎯 Objective
-- Compare cost vs. delivery speed tradeoffs between logistics providers
-- Track on-time delivery performance over time
-- Identify route-level delay patterns by origin-destination pair
-- Support decisions on logistics partner selection or order-splitting strategy
+## 🛠️ The Technical Solution
+This project establishes a pure Business Intelligence infrastructure designed to parse multi-channel shipping ledgers and evaluate delivery partner performance:
+* **Multi-Fact Data Modeling:** Constructed an optimized dimensional schema joining customer transaction metrics, carrier profiles, geography tables, and delivery tracking updates.
+* **SLA Performance Logic:** Engineered custom calculated metrics (DAX / advanced spreadsheet functions) to track On-Time Delivery rates, average fulfillment lag, transit exceptions, and return-to-origin (RTO) distributions.
+* **Executive Logistics Dashboard:** Built an interactive, high-impact operational dashboard that maps regional supply chain health, segments individual courier performance, and surfaces critical logistics liabilities.
 
-## 🧠 Key Insights
-- 4,373 total orders analyzed | Avg delivery cost ₹149.69 | Avg delivery time 4.57 days | 63.43% on-time
-- FastWheels Ltd: faster but more expensive ("Fast & Expensive" quadrant)
-- Ship2Home: slower but cheaper ("Slow & Cheap" quadrant)
-- On-time delivery % trends diverge over a 15-day period between providers
-- Route-level delay hotspots identified (e.g., Bangalore–Chennai: 1.21 avg delay days)
+## 🚀 Quantifiable Business Impact
+* **Enforces Carrier Accountability:** Isolates specific underperforming shipping carriers or delivery lanes that consistently breach promised delivery windows.
+* **Minimizes Delivery Lag & Churn:** Pinpoints high-friction transit routes and regional fulfillment delays, enabling logistics teams to reallocate shipping loads dynamically.
+* **Protects Bottom-Line Margins:** Surface spatial distributions of shipping overhead anomalies and unexpected returns to optimize delivery expenditures.
 
-## 📊 Dashboard
+## 🧰 Tech Stack & Tools
+* **Business Intelligence Framework:** Power BI / Advanced Excel
+* **Data Layer Integration:** SQL (Data extraction and multi-table validation views)
+
+---
+
+## 📊 Dashboard Preview
 ![Delivery Model Analysis Dashboard](Screenshot.png)
 
-## 🛠 Tools Used
-- Microsoft Power BI
+---
 
-## ⚠️ Data Note
-Order placement timestamps were not available in the source data, so warehouse dispatch lead time could not be analyzed. This dashboard focuses on post-dispatch delivery performance. Raw dataset is not included in this repo (proprietary/sample data); .pbix file is provided for methodology reference.
+## 👥 Author, Attribution & Consulting Inquiries
+* **Developed By:** Bharat Lalwani
+* **Professional Role:** Data Engineer & Analytics Consultant
+* **Code Repository:** [GitHub Profile](https://github.com/bharatlalwani-analytics)
+* **Professional Network:** [LinkedIn Profile](https://www.linkedin.com/in/bharatlalwani-analytics/)
 
-## 💼 Business Recommendations
-- Consider splitting order volume: use FastWheels for time-sensitive/high-value orders, Ship2Home for cost-sensitive bulk orders
-- Investigate Bangalore–Chennai and Delhi–Chennai routes for consistent delay causes
-- Renegotiate SLAs with providers showing declining on-time trends
+*For end-to-end data system construction, custom ETL pipelines, or supply chain business intelligence infrastructure engineering, reach out directly via my LinkedIn network above.*
 
-## 👤 Author
-**Bharat Lalwani**  
-Data Science & Analytics
+
