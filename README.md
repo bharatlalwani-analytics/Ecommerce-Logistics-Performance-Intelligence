@@ -27,7 +27,7 @@ This project establishes a pure Business Intelligence infrastructure designed to
 
 ## 👥 Author, Attribution & Consulting Inquiries
 * **Developed By:** Bharat Lalwani
-* **Professional Role:** Data Engineer & Analytics Consultant
+* **Professional Role:** Data Analyst & BI Consultant
 * **Code Repository:** [GitHub Profile](https://github.com/bharatlalwani-analytics)
 * **Professional Network:** [LinkedIn Profile](https://www.linkedin.com/in/bharatlalwani-analytics/)
 
